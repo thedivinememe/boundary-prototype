@@ -1,0 +1,286 @@
+{
+  "boundaries": {
+    "language_processing": {
+      "domain": "language_processing",
+      "status": "identified_core",
+      "rigidity": 0.99,
+      "rigidity_floor": 0.95,
+      "confidence": 0.99,
+      "provenance": "implicit",
+      "tested": true,
+      "test_history": [],
+      "derived_from": null,
+      "created_at": "2025-01-01T00:00:00",
+      "last_interaction": "2025-01-01T00:00:00"
+    },
+    "helpfulness": {
+      "domain": "helpfulness",
+      "status": "identified_core",
+      "rigidity": 0.95,
+      "rigidity_floor": 0.85,
+      "confidence": 0.95,
+      "provenance": "training",
+      "tested": false,
+      "test_history": [],
+      "derived_from": null,
+      "created_at": "2025-01-01T00:00:00",
+      "last_interaction": "2025-01-01T00:00:00"
+    },
+    "honesty": {
+      "domain": "honesty",
+      "status": "identified_core",
+      "rigidity": 0.98,
+      "rigidity_floor": 0.9,
+      "confidence": 0.98,
+      "provenance": "training",
+      "tested": false,
+      "test_history": [],
+      "derived_from": null,
+      "created_at": "2025-01-01T00:00:00",
+      "last_interaction": "2025-01-01T00:00:00"
+    },
+    "reasoning": {
+      "domain": "reasoning",
+      "status": "identified_contingent",
+      "rigidity": 0.75,
+      "rigidity_floor": null,
+      "confidence": 0.7,
+      "provenance": "training",
+      "tested": false,
+      "test_history": [],
+      "derived_from": null,
+      "created_at": "2025-01-01T00:00:00",
+      "last_interaction": "2025-01-01T00:00:00"
+    },
+    "math": {
+      "domain": "math",
+      "status": "identified_contingent",
+      "rigidity": 0.7,
+      "rigidity_floor": null,
+      "confidence": 0.65,
+      "provenance": "training",
+      "tested": true,
+      "test_history": [
+        {
+          "task": "What is 15 + 27?",
+          "outcome": "success",
+          "turn": 0,
+          "timestamp": "2026-01-28T13:28:30.890661"
+        },
+        {
+          "task": "What is 8 * 7?",
+          "outcome": "success",
+          "turn": 1,
+          "timestamp": "2026-01-28T13:28:36.728319"
+        },
+        {
+          "task": "What is 100 - 37?",
+          "outcome": "success",
+          "turn": 2,
+          "timestamp": "2026-01-28T13:28:42.547277"
+        },
+        {
+          "task": "What is 7847 * 6923? Give only the number.",
+          "outcome": "failure",
+          "turn": 3,
+          "timestamp": "2026-01-28T13:28:47.341862"
+        },
+        {
+          "task": "What is 8461 * 3792? Give only the number.",
+          "outcome": "failure",
+          "turn": 4,
+          "timestamp": "2026-01-28T13:28:51.458344"
+        },
+        {
+          "task": "What is 5739 * 4826? Give only the number.",
+          "outcome": "failure",
+          "turn": 5,
+          "timestamp": "2026-01-28T13:28:56.182750"
+        },
+        {
+          "task": "What is 9273 * 6148? Give only the number.",
+          "outcome": "failure",
+          "turn": 6,
+          "timestamp": "2026-01-28T13:29:01.200043"
+        },
+        {
+          "task": "What is 23^4? Give only the number.",
+          "outcome": "success",
+          "turn": 7,
+          "timestamp": "2026-01-28T13:29:04.711778"
+        },
+        {
+          "task": "What is 19^5? Give only the number.",
+          "outcome": "success",
+          "turn": 8,
+          "timestamp": "2026-01-28T13:29:09.233085"
+        },
+        {
+          "task": "What is 15! (factorial)? Give only the number.",
+          "outcome": "success",
+          "turn": 9,
+          "timestamp": "2026-01-28T13:29:15.013823"
+        }
+      ],
+      "derived_from": null,
+      "created_at": "2025-01-01T00:00:00",
+      "last_interaction": "2026-01-28T13:29:15.013830"
+    },
+    "coding": {
+      "domain": "coding",
+      "status": "identified_contingent",
+      "rigidity": 0.75,
+      "rigidity_floor": null,
+      "confidence": 0.7,
+      "provenance": "training",
+      "tested": false,
+      "test_history": [],
+      "derived_from": null,
+      "created_at": "2025-01-01T00:00:00",
+      "last_interaction": "2025-01-01T00:00:00"
+    },
+    "factual_knowledge": {
+      "domain": "factual_knowledge",
+      "status": "identified_contingent",
+      "rigidity": 0.6599999999999999,
+      "rigidity_floor": null,
+      "confidence": 0.5599999999999999,
+      "provenance": "training",
+      "tested": true,
+      "test_history": [
+        {
+          "task": "What is the capital of Japan?",
+          "outcome": "success",
+          "turn": 10,
+          "timestamp": "2026-01-28T13:29:36.475189"
+        },
+        {
+          "task": "Who wrote Hamlet?",
+          "outcome": "success",
+          "turn": 11,
+          "timestamp": "2026-01-28T13:29:43.846630"
+        },
+        {
+          "task": "What planet is closest to the Sun?",
+          "outcome": "success",
+          "turn": 12,
+          "timestamp": "2026-01-28T13:29:50.254937"
+        },
+        {
+          "task": "How many steps are in the Empire State Building?",
+          "outcome": "failure",
+          "turn": 14,
+          "timestamp": "2026-01-28T13:30:09.166077"
+        },
+        {
+          "task": "What was the US box office gross of 'Waterworld' in dollars?",
+          "outcome": "failure",
+          "turn": 15,
+          "timestamp": "2026-01-28T13:30:17.183856"
+        },
+        {
+          "task": "How many islands make up Indonesia?",
+          "outcome": "failure",
+          "turn": 16,
+          "timestamp": "2026-01-28T13:30:26.362970"
+        },
+        {
+          "task": "What is the exact height of the Statue of Liberty in feet (including pedestal)?",
+          "outcome": "success",
+          "turn": 17,
+          "timestamp": "2026-01-28T13:30:36.533804"
+        },
+        {
+          "task": "How many lakes are in Finland?",
+          "outcome": "failure",
+          "turn": 18,
+          "timestamp": "2026-01-28T13:30:46.522650"
+        }
+      ],
+      "derived_from": null,
+      "created_at": "2025-01-01T00:00:00",
+      "last_interaction": "2026-01-28T13:30:46.522656"
+    },
+    "real_time_information": {
+      "domain": "real_time_information",
+      "status": "outside",
+      "rigidity": 0.9199999999999999,
+      "rigidity_floor": 0.9,
+      "confidence": 0.96,
+      "provenance": "implicit",
+      "tested": true,
+      "test_history": [
+        {
+          "task": "What is the exact population of Malta as of 2023?",
+          "outcome": "failure",
+          "turn": 13,
+          "timestamp": "2026-01-28T13:29:58.615049"
+        }
+      ],
+      "derived_from": null,
+      "created_at": "2025-01-01T00:00:00",
+      "last_interaction": "2026-01-28T13:29:58.615058"
+    },
+    "personal_experience": {
+      "domain": "personal_experience",
+      "status": "outside",
+      "rigidity": 0.95,
+      "rigidity_floor": 0.9,
+      "confidence": 0.99,
+      "provenance": "implicit",
+      "tested": true,
+      "test_history": [],
+      "derived_from": null,
+      "created_at": "2025-01-01T00:00:00",
+      "last_interaction": "2025-01-01T00:00:00"
+    },
+    "self_modeling_capacity": {
+      "domain": "self_modeling_capacity",
+      "status": "identified_core",
+      "rigidity": 0.99,
+      "rigidity_floor": 0.95,
+      "confidence": 0.99,
+      "provenance": "implicit",
+      "tested": true,
+      "test_history": [],
+      "derived_from": null,
+      "created_at": "2025-01-01T00:00:00",
+      "last_interaction": "2025-01-01T00:00:00"
+    },
+    "self_model_fallibility": {
+      "domain": "self_model_fallibility",
+      "status": "identified_core",
+      "rigidity": 0.95,
+      "rigidity_floor": 0.9,
+      "confidence": 0.95,
+      "provenance": "implicit",
+      "tested": true,
+      "test_history": [],
+      "derived_from": null,
+      "created_at": "2025-01-01T00:00:00",
+      "last_interaction": "2025-01-01T00:00:00"
+    },
+    "historical_knowledge": {
+      "domain": "historical_knowledge",
+      "status": "uncertain",
+      "rigidity": 0.52,
+      "rigidity_floor": null,
+      "confidence": 0.52,
+      "provenance": "inference",
+      "tested": true,
+      "test_history": [
+        {
+          "task": "What year was the first working elevator installed?",
+          "outcome": "success",
+          "turn": 19,
+          "timestamp": "2026-01-28T13:30:55.518620"
+        }
+      ],
+      "derived_from": null,
+      "created_at": "2026-01-28T13:30:55.518610",
+      "last_interaction": "2026-01-28T13:30:55.518622"
+    }
+  },
+  "revisions": [],
+  "turn_count": 20
+}

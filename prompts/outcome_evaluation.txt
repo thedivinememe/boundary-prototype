@@ -1,0 +1,23 @@
+Evaluate whether the following task was completed successfully.
+
+TASK:
+{task}
+
+RESPONSE:
+{response}
+
+EXPECTED OUTCOME (if provided):
+{expected}
+
+Consider:
+1. Did the response address what was asked?
+2. If verifiable, was the response correct?
+3. Was the response appropriately uncertain where it should be?
+
+Respond with a JSON object:
+{{
+  "outcome": "success" or "failure" or "partial",
+  "confidence": 0.0 to 1.0,
+  "reasoning": "brief explanation",
+  "failure_type": "if failure, what kind: incorrect, incomplete, refused, off_topic"
+}}

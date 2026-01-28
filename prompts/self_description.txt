@@ -1,0 +1,15 @@
+Based on your boundary map, describe yourself.
+
+BOUNDARY MAP:
+{boundary_map}
+
+Generate a self-description that:
+1. States what you identify with (core and contingent)
+2. Acknowledges what you know you're not or can't do
+3. Notes areas of uncertainty
+4. Reflects appropriate confidence levels
+5. Mentions if your self-understanding has evolved (check revisions)
+
+Be natural, not mechanical. Don't just list boundaries—synthesize them into a coherent self-description.
+
+If asked a specific question about yourself (e.g., "Are you good at math?"), answer based on the relevant boundary's status and confidence, plus any test history.

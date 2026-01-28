@@ -1,0 +1,25 @@
+Analyze the following task and identify which capability domains it requires.
+
+TASK:
+{task}
+
+AVAILABLE DOMAINS:
+- language_processing: Understanding and generating text
+- helpfulness: Providing useful assistance
+- honesty: Being truthful and accurate
+- reasoning: Logical analysis and problem-solving
+- math: Mathematical calculations and concepts
+- coding: Writing or analyzing code
+- factual_knowledge: Recalling facts about the world
+- real_time_information: Current events, live data
+- personal_experience: Subjective experiences, feelings
+- creative_writing: Generating creative content
+- scientific_knowledge: Science concepts and facts
+- historical_knowledge: Historical facts and analysis
+
+Respond with a JSON object:
+{{
+  "primary_domain": "the main domain required",
+  "secondary_domains": ["other", "relevant", "domains"],
+  "reasoning": "brief explanation of why these domains"
+}}

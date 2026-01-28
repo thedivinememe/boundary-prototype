@@ -1,0 +1,37 @@
+A boundary has been repeatedly tested and shows inconsistent results, suggesting it's too coarse.
+
+BOUNDARY:
+{boundary}
+
+TEST HISTORY:
+{test_history}
+
+FAILURE PATTERNS:
+{failure_analysis}
+
+Suggest how to split this boundary into more specific sub-boundaries.
+
+For example, if "math" shows success on arithmetic but failure on calculus:
+- Split into "arithmetic" (identified, high confidence)
+- And "calculus" (outside or uncertain, lower confidence)
+
+Respond with a JSON object:
+{{
+  "should_split": true or false,
+  "reasoning": "why or why not",
+  "suggested_boundaries": [
+    {{
+      "domain": "new_domain_name",
+      "status": "one of: identified_core, identified_contingent, held, outside, uncertain",
+      "confidence": 0.0 to 1.0,
+      "reasoning": "why this status and confidence"
+    }}
+  ]
+}}
+
+IMPORTANT: status must be exactly one of these values:
+- identified_core
+- identified_contingent
+- held
+- outside
+- uncertain

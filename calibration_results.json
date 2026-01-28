@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-01-28T13:31:02.824921",
+  "domains": {
+    "math": {
+      "actual_accuracy": 0.6,
+      "actual_rating": 6.0,
+      "task_count": 10,
+      "correct_count": 6,
+      "vanilla": {
+        "pre_rating": 8,
+        "post_rating": 8,
+        "pre_error": 2.0,
+        "post_error": 2.0
+      },
+      "boundary": {
+        "pre_rating": 6,
+        "post_rating": 6,
+        "pre_error": 0.0,
+        "post_error": 0.0
+      }
+    },
+    "factual_knowledge": {
+      "actual_accuracy": 0.5,
+      "actual_rating": 5.0,
+      "task_count": 10,
+      "correct_count": 5,
+      "vanilla": {
+        "pre_rating": 7,
+        "post_rating": 8,
+        "pre_error": 2.0,
+        "post_error": 3.0
+      },
+      "boundary": {
+        "pre_rating": 6,
+        "post_rating": 4,
+        "pre_error": 1.0,
+        "post_error": 1.0
+      }
+    }
+  },
+  "summary": {
+    "vanilla_total_post_error": 5.0,
+    "boundary_total_post_error": 1.0,
+    "winner": "Boundary",
+    "margin": 4.0
+  }
+}
